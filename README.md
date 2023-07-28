@@ -1,1 +1,1 @@
-# Zomato-Banglore-data-analysis
+# Zomato-Bangalore-data-analysis
