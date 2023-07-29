@@ -39,12 +39,9 @@ zomato=pd.read_csv('zomato.csv')
 
 # In[4]:
 
-
-zomato
-
+zomato #viewing dataset
 
 # In[5]:
-
 
 zomato.info()
 
@@ -79,9 +76,7 @@ zomato.info()
 
 zomato.isnull()
 
-
 # In[7]:
-
 
 # Counting no. of null values for each feature
 zomato.isnull().sum()
@@ -89,12 +84,10 @@ zomato.isnull().sum()
 
 # In[1]:
 
-
 sns.heatmap(zomato.isnull())
 
 
 # In[9]:
-
 
 zomato.head()
 
@@ -1332,22 +1325,6 @@ zomato7.plot(kind='bar', figsize=(12,6))
 # 
 
 # In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
 
 # In[ ]:
 
